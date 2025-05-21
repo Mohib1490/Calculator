@@ -193,7 +193,6 @@ button:focus {
   }
 }
 
-
 /* Large Devices (Desktops) */
 @media screen and (min-width: 1025px) {
   .calculator-title {
