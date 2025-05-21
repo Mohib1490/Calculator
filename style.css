@@ -68,13 +68,7 @@
     background-color: rgba(255, 255, 255, 0.7);
   }
   
-  @keyframes ripple-animation {
-    to {
-      transform: scale(4);
-      opacity: 0;
-    }
-  }
-
+ 
   button:hover {
     background: #3a3a50;
   }
@@ -101,6 +95,12 @@
 
 
 
+  @keyframes ripple-animation {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
 
 
 
