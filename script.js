@@ -34,4 +34,23 @@ function calculate() {
     } else if (key === 'Escape') {
       clearDisplay();
     }
+
+    
   });
+
+  // Modal control
+  function openModal() {
+    document.getElementById('modal').style.display = 'flex';
+  }
+
+  function closeModal() {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+  // Optional: Close modal on click outside
+  window.onclick = function(e) {
+    const modal = document.getElementById('modal');
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  }
